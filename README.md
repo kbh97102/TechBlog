@@ -1,3 +1,23 @@
+# CMP 한번 찍먹해보자!
+
+최근 Velog에서 Jetpack Compose Internals라는 책을 읽으며 알게된 내용을 정리하던 도중 서버 점검인지, 아님 순간적인 단순 서버 이슈인지는 모르겠지만
+접속이 안되거나 포스트가 안올라간 경험을 했다. 
+그러다 문득 한번 비슷하게 만들어볼까?? -> 플러터는 이미 다른 사이드 프로젝트에서 삽질 중이니 이번엔 CMP 맛좀 볼까? -> 웹이나 데스크탑 앱도 재밌을 것 같다 -> 진행시켜
+이 의식의 흐름에 따라 시작한다!
+
+# 예상되는 기능
+* 글 목록 조회
+* 글 작성
+  * 마크다운 기반 
+  * 데스크탑이나 웹에서 작성 시 화면 반으로 갈라서 마크다운 적용된 프리뷰 보여주기
+  * 주기적인 임시 저장
+ 
+    
+
+
+
+
+
 This is a Kotlin Multiplatform project targeting Android, iOS, Web, Desktop (JVM).
 
 * [/composeApp](./composeApp/src) is for code that will be shared across your Compose Multiplatform applications.
